@@ -14,6 +14,7 @@ The type of the project determines what tools you might want to try out - for ex
   - Should I use instrumentation-based or sampling-based profilers?
   - Does this program require a virtual machine runtime? If so, should I look into generic tools for profiling and tracing programs running on that virtual machine (e.g., async-sampler or JFR for Java)?
     - Should I perform a heap dump of the virtual machine heap?
+  - Is this a web application? Should I use profilers such as [Firefox profiler](https://profiler.firefox.com/)?
 - Does it make sense to profile memory usage of this program?
   - Should I check for memory leaks?
   - Will analyzing [RSS](https://en.wikipedia.org/wiki/Resident_set_size) make the picture more complete?
